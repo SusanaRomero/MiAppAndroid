@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Botón para buscar recetas de Arroz -->
+    <Button
+        android:id="@+id/buttonBuscarArroz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buscar_arroz" />
+
+    <!-- Botón para buscar recetas de Pasta -->
+    <Button
+        android:id="@+id/buttonBuscarPasta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buscar_pasta"
+        android:layout_marginTop="16dp" />
+
+    <!-- Botón para buscar recetas Al Horno -->
+    <Button
+        android:id="@+id/buttonBuscarAlHorno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buscar_al_horno"
+        android:layout_marginTop="16dp" />
+
+    <!-- Botón para buscar recetas de Comida Rápida -->
+    <Button
+        android:id="@+id/buttonBuscarComidaRapida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buscar_comida_rapida"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

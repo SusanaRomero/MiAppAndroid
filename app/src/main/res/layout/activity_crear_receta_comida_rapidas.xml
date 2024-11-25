@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Título de la receta -->
+        <EditText
+            android:id="@+id/editTextNombreRecetaComidaRapida"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_nombre_receta"
+            android:inputType="text"
+            android:padding="16dp"
+            android:minHeight="48dp" />
+
+        <!-- Utensilios necesarios -->
+        <EditText
+            android:id="@+id/editTextUtensiliosComidaRapida"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_utensilios"
+            android:inputType="text"
+            android:padding="16dp"
+            android:minHeight="48dp" />
+
+        <!-- Tiempo aproximado -->
+        <EditText
+            android:id="@+id/editTextTiempoAproximadoComidaRapida"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_tiempo_aproximado"
+            android:inputType="text"
+            android:padding="16dp"
+            android:minHeight="48dp" />
+
+        <!-- Ingredientes -->
+        <EditText
+            android:id="@+id/editTextIngredientesComidaRapida"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_ingredientes"
+            android:inputType="textMultiLine"
+            android:minLines="3"
+            android:gravity="top"
+            android:padding="16dp"
+            android:minHeight="48dp" />
+
+        <!-- Preparación -->
+        <EditText
+            android:id="@+id/editTextPreparacionComidaRapida"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_preparacion"
+            android:inputType="textMultiLine"
+            android:minLines="5"
+            android:gravity="top"
+            android:padding="16dp"
+            android:minHeight="48dp" />
+
+        <!-- Foto final -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hint_foto_final" />
+
+        <ImageView
+            android:id="@+id/imageViewFotoFinalComidaRapida"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="8dp"
+            android:background="@android:color/darker_gray"
+            android:contentDescription="@string/hint_foto_final" />
+
+        <!-- Consejos -->
+        <EditText
+            android:id="@+id/editTextConsejoComidaRapida"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_consejos"
+            android:inputType="textMultiLine"
+            android:minLines="2"
+            android:gravity="top"
+            android:padding="16dp"
+            android:minHeight="48dp" />
+
+        <!-- Botón Guardar Receta -->
+        <Button
+            android:id="@+id/buttonGuardarRecetaComidaRapida"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/guardar_receta"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="24dp" />
+    </LinearLayout>
+</ScrollView>

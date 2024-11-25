@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Video de fondo -->
+    <VideoView
+        android:id="@+id/video_fondo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center" />
+    <!-- Contenido principal encima del video -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp">
+
+        <!-- Contenedor del título estilizado e ícono -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="30dp">
+
+            <!-- Contenedor del título (vertical) -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_vertical">
+
+                <!-- Línea superior del título -->
+                <TextView
+                    android:id="@+id/titleLine1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="COCINA A"
+                    android:textSize="28sp"
+                    android:textColor="@color/primary_text_color"
+                    android:fontFamily="@font/poppins_bold"
+                    android:layout_marginBottom="-10dp"
+                    android:gravity="center"
+                    android:autoSizeTextType="uniform" />
+
+                <!-- Línea inferior del título -->
+                <TextView
+                    android:id="@+id/titleLine2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SU SAZÓN"
+                    android:textSize="24sp"
+                    android:textColor="@color/accent_color"
+                    android:fontFamily="@font/poppins_bold"
+                    android:textStyle="italic"
+                    android:layout_marginStart="20dp"
+                    android:visibility="invisible"
+                    android:gravity="center"
+                    android:paddingEnd="9dp" />
+            </LinearLayout>
+
+            <!-- Ícono interactivo -->
+            <ImageView
+                android:id="@+id/iconInteractive"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="16dp"
+                android:src="@drawable/ic_interactive"
+                android:contentDescription="@string/icon_description"
+                android:clickable="true"
+                android:focusable="true" />
+        </LinearLayout>
+
+        <!-- Botón para Crear Receta -->
+        <Button
+            android:id="@+id/buttonCrearReceta"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="@string/crear_receta"
+            android:textSize="18sp"
+            android:padding="16dp"
+            android:backgroundTint="@color/button_background"
+            android:textColor="@color/button_text"
+            android:fontFamily="@font/poppins_thin"
+            android:layout_marginBottom="20dp"
+            android:elevation="4dp" />
+
+        <!-- Botón para Buscar Receta -->
+        <Button
+            android:id="@+id/buttonBuscarReceta"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="@string/buscar_receta"
+            android:textSize="18sp"
+            android:padding="16dp"
+            android:backgroundTint="@color/button_background"
+            android:textColor="@color/button_text"
+            android:fontFamily="@font/poppins_thin"
+            android:elevation="4dp" />
+    </LinearLayout>
+</FrameLayout>

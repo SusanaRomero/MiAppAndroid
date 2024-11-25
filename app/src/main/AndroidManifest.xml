@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CocinaATuSazon"
+        tools:targetApi="31">
+        <activity
+            android:name=".DetalleRecetaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BuscarRecetasSopasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BuscarRecetasCarnesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BuscarRecetasBatidosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BuscarRecetasEnsaladasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BuscarRecetasPasabocasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BuscarRecetasPostresFriosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BuscarRecetasTortasPastelesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BuscarRecetasPanaderiaSaladaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BuscarRecetasPanaderiaDulceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BuscarRecetasJugosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BuscarRecetasCoctelesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BuscarRecetasComidaRapidaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BuscarRecetasPastaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BuscarRecetasAlHornoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BuscarRecetasArrozActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TipoFitnessBuscarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TipoReposteriaBuscarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TipoBebidasBuscarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TipoPlatoFuerteBuscarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TipoRecetaBuscarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CrearRecetaSopasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CrearRecetaCarnesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CrearRecetaBatidosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CrearRecetaEnsaladasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CrearRecetaPasabocasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CrearRecetaTortasPastelesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CrearRecetaPanaderiaSaladaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CrearRecetaPanaderiaDulceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CrearRecetaJugosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CrearRecetaCoctelesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CrearRecetaComidaRapidaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CrearRecetaAlHornoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CrearRecetaPastaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CrearRecetaArrozActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CrearRecetaPostresFriosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TipoBebidasCrearActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TipoFitnessCrearActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TipoReposteriaCrearActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TipoPlatoFuerteCrearActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TipoRecetaCrearActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TipoRecetasCrearActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ItemRecetaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

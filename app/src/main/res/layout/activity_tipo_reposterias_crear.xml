@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/buttonPanaderiaDulce"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_panaderia_dulce"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/buttonPanaderiaSalada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_panaderia_salada"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/buttonTortasYPasteles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_tortas_y_pasteles"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/buttonPostresFrios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_postres_frios"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/buttonPasabocas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_pasabocas" />
+</LinearLayout>

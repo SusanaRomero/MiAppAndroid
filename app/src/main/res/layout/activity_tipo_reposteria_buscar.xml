@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- Título de la pantalla -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo_buscar_tipo_reposteria"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Botones para cada tipo de repostería -->
+    <Button
+        android:id="@+id/buttonBuscarPanaderiaDulce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buscar_panaderia_dulce" />
+
+    <Button
+        android:id="@+id/buttonBuscarPanaderiaSalada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buscar_panaderia_salada"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/buttonBuscarTortasPasteles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buscar_tortas_pasteles"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/buttonBuscarPostresFrios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buscar_postres_frios"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/buttonBuscarPasabocas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buscar_pasabocas"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

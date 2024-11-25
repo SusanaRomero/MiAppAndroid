@@ -1,0 +1,110 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Título -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/titulo_crear_receta_postres_frios"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="16dp"/>
+
+        <!-- Campo: Nombre de la receta -->
+        <EditText
+            android:id="@+id/editTextNombreRecetaPostresFrios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_nombre_receta"
+            android:inputType="text"
+            android:padding="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Campo: Utensilios -->
+        <EditText
+            android:id="@+id/editTextUtensiliosPostresFrios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_utensilios"
+            android:inputType="text"
+            android:padding="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Campo: Tiempo aproximado -->
+        <EditText
+            android:id="@+id/editTextTiempoAproximadoPostresFrios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_tiempo_aproximado"
+            android:inputType="text"
+            android:padding="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Campo: Ingredientes -->
+        <EditText
+            android:id="@+id/editTextIngredientesPostresFrios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_ingredientes"
+            android:inputType="textMultiLine"
+            android:minLines="3"
+            android:gravity="top"
+            android:padding="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Campo: Preparación -->
+        <EditText
+            android:id="@+id/editTextPreparacionPostresFrios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_preparacion"
+            android:inputType="textMultiLine"
+            android:minLines="5"
+            android:gravity="top"
+            android:padding="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Campo: Foto final -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hint_foto_final"
+            android:paddingTop="8dp"/>
+
+        <ImageView
+            android:id="@+id/imageViewFotoFinalPostresFrios"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="@string/descripcion_foto_final"/>
+
+        <!-- Campo: Consejo -->
+        <EditText
+            android:id="@+id/editTextConsejoPostresFrios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_consejo"
+            android:inputType="textMultiLine"
+            android:minLines="2"
+            android:gravity="top"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Botón: Guardar Receta -->
+        <Button
+            android:id="@+id/buttonGuardarRecetaPostresFrios"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/guardar_receta"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/buttonPlatoFuerte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/plato_fuerte"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/buttonBebidas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bebidas"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/buttonReposteria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reposteria"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/buttonSopas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sopas"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/buttonFitness"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fitness"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/buttonCarnes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/carnes" />
+
+</LinearLayout>

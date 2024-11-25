@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Botón: Buscar Plato Fuerte -->
+    <Button
+        android:id="@+id/buttonBuscarPlatoFuerte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buscar_plato_fuerte"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Botón: Buscar Bebidas -->
+    <Button
+        android:id="@+id/buttonBuscarBebidas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buscar_bebidas"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Botón: Buscar Repostería -->
+    <Button
+        android:id="@+id/buttonBuscarReposteria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buscar_reposteria"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Botón: Buscar Sopas -->
+    <Button
+        android:id="@+id/buttonBuscarSopas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buscar_sopas"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Botón: Buscar Fitness -->
+    <Button
+        android:id="@+id/buttonBuscarFitness"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buscar_fitness"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Botón: Buscar Carnes -->
+    <Button
+        android:id="@+id/buttonBuscarCarnes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buscar_carnes"/>
+
+</LinearLayout>
